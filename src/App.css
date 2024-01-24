@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* .strong{
+  display: none;
+} */
+.box{
+  width: 90%;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fffefe;
+  border-radius: 8px;
+}
+
+@media(min-width:768px){
+  .box{
+    width: 50%;
+  }
+}
+@media(min-width:1024px){
+  .box{
+    width: 30%;
+  }
+}
