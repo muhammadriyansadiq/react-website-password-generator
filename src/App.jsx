@@ -79,7 +79,7 @@ console.log(randomString);
         <div className=' bg-slate-900 w-full rounded-lg h-screen flex flex-col justify-between'>
        <div className=' text-center my-2 h-full flex flex-col justify-between'>
         <input type="text" placeholder='Password' value={randomString} 
-        className=' bg-transparent border-2 border-white p-3 w-11/12 rounded-xl'/>
+        className=' bg-transparent border-2 border-white p-3 w-11/12 rounded-xl text-white'/>
         <p className=' text-left my-1 mx-5 text-lime-500 strong'>{passwordtype}</p>
         <div className=' flex shadow shadow-slate-800 my-3'>
         <p className=' text-left my-1 mx-5 text-white'>Password length {genpasswordvalue}</p>
